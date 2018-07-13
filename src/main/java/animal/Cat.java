@@ -6,6 +6,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
 
 @Component
+@ComponentScan
 public class Cat {
     @Autowired
     public Dog dog;
